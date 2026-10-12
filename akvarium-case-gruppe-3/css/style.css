@@ -23,6 +23,57 @@ body {
 }
 
 .gulKirurgfisk {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
     z-index: 2;
 }
 
+.raevFjaes {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
+
+.gulfinnetKirurgfisk {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
+
+.nemo {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
+
+.paletKirurgfisk{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
+
+.chromis{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
+
+.kuglefisk{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 120px;
+    z-index: 2;
+}
