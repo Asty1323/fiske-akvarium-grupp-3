@@ -2,4 +2,6 @@
     background-image: url("../img/baggrund.svg");
     background-size: cover;
     background-position: center;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
