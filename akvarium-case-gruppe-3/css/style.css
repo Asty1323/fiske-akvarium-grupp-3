@@ -140,13 +140,13 @@ body {
 
  .chromis{
    bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
    animation: chromis 18s linear infinite;
 }
 
 @keyframes chromis {
    0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+   100% { transform: translateX(130vw); }
 }
 
 .kuglefisk{
@@ -160,13 +160,13 @@ body {
 
  .kuglefisk{
    bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
    animation: kuglefisk 18s linear infinite;
 }
 
 @keyframes kuglefisk {
    0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+   100% { transform: translateX(130vw); }
 }
 
 
