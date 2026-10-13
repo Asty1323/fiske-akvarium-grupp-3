@@ -75,7 +75,6 @@ body {
     top: 75%;
     left: 45%;
     width: 120px;
-<<<<<<< HEAD
     z-index: 2;
 }
 
@@ -89,7 +88,3 @@ body {
    0%   { transform: translateX(0); }
    100% { transform: translateX(130vw); }
 }
-=======
-    z-index: 1;
-}
->>>>>>> 7bf769858e0dc205c89aff42c17ceb80e2888d86

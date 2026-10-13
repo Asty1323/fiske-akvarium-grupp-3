@@ -51,4 +51,15 @@ const fish = [
         funFact: " Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
         photo: "img/nemo.svg"
     },
+
+     {
+        id: "nemo",
+        species: "HEJ, JEG ER EN KLOVNFISK!",
+        habitat: "Jeg kommer fra Det Indiske Ocean, Stillehavet og Det Røde Hav.",
+        size: "Jeg kan blive op til 11 cm lang.",
+        diet: "Jeg spiser alger og smådyr.",
+        funFact: " Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
+        photo: "img/nemo.svg"
+    },
+
 ]
