@@ -33,7 +33,7 @@ const fish = [
     },
 
       {
-        id: "gulfinnetKirugfisk",
+        id: "gulfinnetKirurgfisk",
         species: "HEJ, JEG ER EN GULFINNET KIRURGFISK!",
         habitat: "Jeg kommer fra Det Indiske Ocean og  Stillehavet.",
         size: "Jeg kan blive op til 36 cm lang.",
