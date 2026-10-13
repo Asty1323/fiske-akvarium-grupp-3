@@ -77,3 +77,14 @@ body {
     width: 120px;
     z-index: 2;
 }
+
+.kardinalfisk {
+   bottom: 2.8vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: car1 18s linear infinite;
+}
+
+@keyframes kardinalfisk {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(130vw); }
+}
