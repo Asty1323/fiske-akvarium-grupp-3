@@ -86,9 +86,3 @@ body {
     width: 120px;
     z-index: 2;
 }
-
-
-@keyframes kardinalfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
-}
