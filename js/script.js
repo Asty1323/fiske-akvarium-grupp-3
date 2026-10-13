@@ -28,7 +28,7 @@ const fish = [
         habitat: "Jeg kommer fra Det Indiske Ocean og  Stillehavet.",
         size: "Jeg kan blive op til 25 cm lang.",
         diet: "Jeg spiser alger og plankton.",
-        funFact: " Vidste du, at rævefjæs har en smart forsvarsmekanisme? Den har giftige pigge på finnerne!",
+        funFact: "Vidste du, at rævefjæs har en smart forsvarsmekanisme? Den har giftige pigge på finnerne!",
         photo: "img/irlraevefjaes.png"
     },
 
@@ -48,7 +48,7 @@ const fish = [
         habitat: "Jeg kommer fra Det Indiske Ocean, Stillehavet og Det Røde Hav.",
         size: "Jeg kan blive op til 11 cm lang.",
         diet: "Jeg spiser alger og smådyr.",
-        funFact: " Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
+        funFact: "Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
         photo: "img/irlnemo.png"
     },
 
@@ -79,7 +79,7 @@ const fish = [
         size: "Jeg kan blive 43 cm lang.",
         diet: "Jeg spiser muslinger, krabber og snegle.",
         funFact: "Vidste du at når jeg bliver bange, puster jeg mig op til en bold?",
-        photo: "img/irkuglefisk.png"
+        photo: "img/irlkuglefisk.png"
     },
 
 ]
