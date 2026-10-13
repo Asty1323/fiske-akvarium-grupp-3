@@ -16,12 +16,12 @@ body {
 
 .kardinalfisk {
     position: absolute;
-    top: 20%;
-    left: 70%;
+    top: 200px;
+    left: 120%;
     width: 150px;
     z-index: 1;
-    bottom: 2.8vh;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    /*bottom: 2.8vh;
+    /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalfisk 18s linear infinite;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .gulKirurgfisk {
     position: absolute;
-    top: 100px;
+    top: 300px;
     left: 150px;
     width: 120px;
     z-index: 2;
@@ -52,7 +52,7 @@ body {
 
 .raevFjaes {
     position: absolute;
-    top: 45%;
+    top: 300px;
     left: 15%;
     width: 160px;
     z-index: 1;
@@ -60,18 +60,18 @@ body {
 
    .raevFjaes {
    bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
    animation: raevFjaes 18s linear infinite;
 }
 
 @keyframes raevFjaes {
    0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+   100% { transform: translateX(130vw); }
 }
 
 .gulfinnetKirurgfisk {
     position: absolute;
-    top: 40%;
+    top: 500px;
     left: 75%;
     width: 140px;
     z-index: 1;
@@ -91,7 +91,7 @@ body {
 
 .nemo {
     position: absolute;
-    top: 30%;
+    top: 550px;
     left: 42%;
     width: 110px;
     z-index: 1;
@@ -99,19 +99,19 @@ body {
 
  .nemo{
    bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
    animation: nemo 18s linear infinite;
 }
 
 @keyframes nemo {
    0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+   100% { transform: translateX(130vw); }
 }
 
 
 .paletKirurgfisk{
     position: absolute;
-    top: 65%;
+    top: 600px;
     left: 30%;
     width: 150px;
     z-index: 1;
@@ -130,7 +130,7 @@ body {
 
 .chromis{
    position: absolute;
-    top: 70%;
+    top: 400px;
     left: 65%;
     width: 90px;
     z-index: 1;
@@ -149,7 +149,7 @@ body {
 
 .kuglefisk{
     position: absolute;
-    top: 75%;
+    top: 150px;
     left: 45%;
     width: 120px;
     z-index: 2;
