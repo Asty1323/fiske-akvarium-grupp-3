@@ -75,21 +75,16 @@ body {
     top: 75%;
     left: 45%;
     width: 120px;
-<<<<<<< HEAD
     z-index: 2;
 }
 
 .kardinalfisk {
    bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: kardinalfisk 18s linear infinite;
 }
 
 @keyframes kardinalfisk {
    0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+   100% { transform: translateX(-130vw); }
 }
-=======
-    z-index: 1;
-}
->>>>>>> 7bf769858e0dc205c89aff42c17ceb80e2888d86
