@@ -16,10 +16,10 @@ body {
 
 .kardinalfisk {
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+    top: 20%;
+    left: 70%;
+    width: 150px;
+    z-index: 1;
 }
 
 .gulKirurgfisk {
@@ -32,49 +32,50 @@ body {
 
 .raevFjaes {
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+    top: 45%;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
 }
 
 .gulfinnetKirurgfisk {
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+    top: 40%;
+    left: 75%;
+    width: 140px;
+    z-index: 1;
 }
 
 .nemo {
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+    top: 30%;
+    left: 42%;
+    width: 110px;
+    z-index: 1;
 }
 
 .paletKirurgfisk{
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+    top: 65%;
+    left: 30%;
+    width: 150px;
+    z-index: 1;
 }
 
 .chromis{
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
-    z-index: 2;
+   position: absolute;
+    top: 70%;
+    left: 65%;
+    width: 90px;
+    z-index: 1;
 }
 
 .kuglefisk{
     position: absolute;
-    top: 100px;
-    left: 150px;
+    top: 75%;
+    left: 45%;
     width: 120px;
+<<<<<<< HEAD
     z-index: 2;
 }
 
@@ -88,3 +89,7 @@ body {
    0%   { transform: translateX(0); }
    100% { transform: translateX(130vw); }
 }
+=======
+    z-index: 1;
+}
+>>>>>>> 7bf769858e0dc205c89aff42c17ceb80e2888d86
