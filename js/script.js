@@ -62,4 +62,14 @@ const fish = [
         photo: "img/paletkirurgfisk.svg"
     },
 
+      {
+        id: "chromis",
+        species: "HEJ, JEG ER EN CHROMIS!",
+        habitat: "Jeg kommer fra Det Indiske Ocean, Stillehavet og Det Røde Hav.",
+        size: "Jeg kan blive op til 10 cm lang.",
+        diet: "Jeg spiser alger og plankton.",
+        funFact: " Vidste du, at chromis kan leve i store stimer på flere hundrede fisk? De bevæger sig synkront, hvilket gør det svært for rovfisk at udpege én bestemt fisk.",
+        photo: "img/chromis.svg"
+    },
+
 ]
