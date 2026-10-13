@@ -9,7 +9,7 @@ const fish = [
         size: "Jeg kan blive op til 8 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at Banggai-kardinalfisken er en af de få fisk, hvor hannen ruger æggene i munden?",
-        photo: "img/Banggai-Kardinalfisk-1.svg" 
+        photo: "img/banggaikardinalfisk.svg" 
     },
 
       {
@@ -19,7 +19,7 @@ const fish = [
         size: "Jeg kan blive op til 20 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at gul kirurgfisk kan bruge sin skarpe “skalpel” ved haleroden som forsvarsvåben?",
-        photo: "img/Gul kirurgfisk.svg"
+        photo: "img/gulkirurgfisk.svg"
     },
 
       {
