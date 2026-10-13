@@ -17,10 +17,8 @@ body {
 .kardinalfisk {
     position: absolute;
     top: 20%;
-    left: 70%;
     width: 150px;
     z-index: 1;
-    bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalfisk 18s linear infinite;
 }
@@ -33,11 +31,9 @@ body {
 
 .gulKirurgfisk {
     position: absolute;
-    top: 100px;
-    left: 150px;
-    width: 120px;
+    top: 186px;
+    width: 171px;
     z-index: 2;
-    bottom: 2.8vh;
    left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: gulKirurgfisk 18s linear infinite;
 }
@@ -50,10 +46,8 @@ body {
 .raevFjaes {
     position: absolute;
     top: 45%;
-    left: 15%;
     width: 160px;
     z-index: 1;
-    bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: raevFjaes 18s linear infinite;
 }
@@ -66,10 +60,8 @@ body {
 .gulfinnetKirurgfisk {
     position: absolute;
     top: 40%;
-    left: 75%;
     width: 140px;
     z-index: 1;
-    bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: gulfinnetKirurgfisk 18s linear infinite;
 }
@@ -83,10 +75,8 @@ body {
 .nemo {
     position: absolute;
     top: 30%;
-    left: 42%;
     width: 110px;
     z-index: 1;
-    bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: nemo 18s linear infinite;
 }
@@ -100,10 +90,8 @@ body {
 .paletKirurgfisk{
     position: absolute;
     top: 65%;
-    left: 30%;
     width: 150px;
     z-index: 1;
-    bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
 }
@@ -116,10 +104,8 @@ body {
 .chromis{
     position: absolute;
     top: 70%;
-    left: 65%;
     width: 90px;
     z-index: 1;
-    bottom: 2.8vh;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
 }
@@ -132,10 +118,8 @@ body {
 .kuglefisk{
     position: absolute;
     top: 75%;
-    left: 45%;
     width: 120px;
     z-index: 2;
-    bottom: 2.8vh;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: kuglefisk 18s linear infinite;
 }
