@@ -20,11 +20,10 @@ body {
     left: 70%;
     width: 150px;
     z-index: 1;
-    .kardinalfisk {
-   bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: kardinalfisk 18s linear infinite;
-}
+    bottom: 2.8vh;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: kardinalfisk 18s linear infinite;
+
 
 @keyframes kardinalfisk {
    0%   { transform: translateX(0); }
