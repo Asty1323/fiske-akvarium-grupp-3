@@ -53,13 +53,13 @@ const fish = [
     },
 
      {
-        id: "nemo",
-        species: "HEJ, JEG ER EN KLOVNFISK!",
-        habitat: "Jeg kommer fra Det Indiske Ocean, Stillehavet og Det Røde Hav.",
-        size: "Jeg kan blive op til 11 cm lang.",
-        diet: "Jeg spiser alger og smådyr.",
-        funFact: " Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
-        photo: "img/nemo.svg"
+        id: "paletKirurgFisk",
+        species: "HEJ, JEG ER EN PALETKIRURGFISK!",
+        habitat: "Jeg kommer fra Det Indiske Ocean og Stillehavet.",
+        size: "Jeg kan blive op til 15 cm lang.",
+        diet: "Jeg spiser plankton.",
+        funFact: "Vidste du, at paletkirurgfisken (også kendt som Dory fra filmen “Find Nemo”) har en giftig pig ved haleroden, som den bruger til at forsvare sig med?",
+        photo: "img/paletkirurgfisk.svg"
     },
 
 ]
