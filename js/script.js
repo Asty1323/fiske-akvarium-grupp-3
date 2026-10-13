@@ -29,7 +29,7 @@ const fish = [
         size: "Jeg kan blive op til 25 cm lang.",
         diet: "Jeg spiser alger og plankton.",
         funFact: " Vidste du, at rævefjæs har en smart forsvarsmekanisme? Den har giftige pigge på finnerne!",
-        photo: "img/rævfjæs.svg"
+        photo: "img/raevefjaes.svg"
     },
 
       {
@@ -39,7 +39,7 @@ const fish = [
         size: "Jeg kan blive op til 36 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at gulfinnet kirurgfisk kan skifte farve afhængigt af humør og situation?",
-        photo: "img/gulfinnetKirurgfisk.svg"
+        photo: "img/gulfinnetkirurgfisk.svg"
     },
 
       {
@@ -49,6 +49,6 @@ const fish = [
         size: "Jeg kan blive op til 11 cm lang.",
         diet: "Jeg spiser alger og smådyr.",
         funFact: " Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
-        photo: "img/Nemo.svg"
+        photo: "img/nemo.svg"
     },
 ]
