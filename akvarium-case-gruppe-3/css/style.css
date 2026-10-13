@@ -37,10 +37,7 @@ body {
     left: 150px;
     width: 120px;
     z-index: 2;
-}
-
-    .gulKirurgfisk {
-   bottom: 2.8vh;
+    bottom: 2.8vh;
    left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: gulKirurgfisk 18s linear infinite;
 }
