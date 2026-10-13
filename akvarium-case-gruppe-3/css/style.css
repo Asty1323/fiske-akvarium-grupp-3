@@ -133,9 +133,9 @@ body {
 
 .kuglefisk{
     position: absolute;
-    top: 150px;
+    top: 50px;
     left: 45%;
-    width: 120px;
+    width: 200px;
     z-index: 2;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: kuglefisk 18s linear infinite;
