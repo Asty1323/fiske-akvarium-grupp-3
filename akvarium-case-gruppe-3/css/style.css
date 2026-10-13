@@ -23,12 +23,11 @@ body {
     bottom: 2.8vh;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalfisk 18s linear infinite;
-
+}
 
 @keyframes kardinalfisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
-}
 }
 
 .gulKirurgfisk {
