@@ -82,7 +82,7 @@ body {
 .kardinalfisk {
    bottom: 2.8vh;
    left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: car1 18s linear infinite;
+   animation: kardinalfisk 18s linear infinite;
 }
 
 @keyframes kardinalfisk {
