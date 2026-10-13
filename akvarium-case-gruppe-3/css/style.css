@@ -37,10 +37,6 @@ body {
     left: 150px;
     width: 120px;
     z-index: 2;
-}
-
-    .gulKirurgfisk {
-   bottom: 2.8vh;
    left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: gulKirurgfisk 18s linear infinite;
 }
@@ -75,12 +71,8 @@ body {
     left: 75%;
     width: 140px;
     z-index: 1;
-}
-
- .gulfinnetKirurgfisk {
-   bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulfinnetKirurgfisk 18s linear infinite;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulfinnetKirurgfisk 18s linear infinite;
 }
 
 @keyframes gulfinnetKirurgfisk {
@@ -115,12 +107,8 @@ body {
     left: 30%;
     width: 150px;
     z-index: 1;
-}
-
- .paletKirurgfisk{
-   bottom: 2.8vh;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: paletKirurgfisk 18s linear infinite;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfisk 18s linear infinite;
 }
 
 @keyframes paletKirurgfisk {
@@ -134,12 +122,8 @@ body {
     left: 65%;
     width: 90px;
     z-index: 1;
-}
-
- .chromis{
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: chromis 18s linear infinite;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
 }
 
 @keyframes chromis {
@@ -153,13 +137,8 @@ body {
     left: 45%;
     width: 120px;
     z-index: 2;
-}
-
-
- .kuglefisk{
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: kuglefisk 18s linear infinite;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: kuglefisk 18s linear infinite;
 }
 
 @keyframes kuglefisk {
