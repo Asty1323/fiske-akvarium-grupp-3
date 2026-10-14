@@ -287,7 +287,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: 2.4s;
 }
 
@@ -298,7 +298,7 @@ body {
     width: 102px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: -0.6s;
 }
 
@@ -309,7 +309,7 @@ body {
     width: 113px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: -1s;
 }
 
@@ -320,7 +320,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: 0.6s;
 }
 
@@ -331,7 +331,7 @@ body {
     width: 125px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: -1.6s;
 }
 
@@ -342,14 +342,37 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 36s linear infinite;
     animation-delay: -0.6s;
 }
 
-@keyframes chromis {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+@keyframes chromisTurn {
+
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(130vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(130vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
+
+
+
+
+
 
 .kuglefisk{
     position: absolute;
