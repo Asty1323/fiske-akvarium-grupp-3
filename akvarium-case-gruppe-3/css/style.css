@@ -118,9 +118,9 @@ body {
     left: 150px;
     width: 62px;
     z-index: 1;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulKirurgfisk 18s linear infinite;
-   animation-delay: 1.2s;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfisk 18s linear infinite;
+    animation-delay: 1.2s;
 }
 
 @keyframes gulKirurgfisk {
@@ -134,12 +134,9 @@ body {
     left: 15%;
     width: 160px;
     z-index: 1;
-}
-
-   .raevFjaes {
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: raevFjaes 18s linear infinite;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
 }
 
 @keyframes raevFjaes {
