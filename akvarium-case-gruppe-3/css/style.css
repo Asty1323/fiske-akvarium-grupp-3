@@ -166,19 +166,41 @@ body {
     }
 }
 
-.paletKirurgfisk{
+.paletKirurgfisk {
+    position: absolute;
+    top: 500px;
+    left: calc(100vw + 50px);
+    width: 120px;
+    z-index: 1;
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk2 {
+    position: absolute;
+    top: 550px;
+    left: calc(100vw + 220px);
+    width: 120px;
+    z-index: 1;
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk3 {
     position: absolute;
     top: 600px;
-    left: 30%;
-    width: 150px;
+    left: calc(100vw + 390px);
+    width: 120px;
     z-index: 1;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
 }
 
 @keyframes paletKirurgfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100vw - 600px));
+    }
 }
 
 .chromis{
