@@ -23,6 +23,7 @@ body {
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFisk 18s linear infinite;
+    animation-delay: -0.3s;
 }
 
 .kardinalFisk2 {
