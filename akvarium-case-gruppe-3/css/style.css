@@ -130,7 +130,29 @@ body {
 
 .raevFjaes {
     position: absolute;
-    top: 300px;
+    top: 70px;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+}
+
+.raevFjaes2 {
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+}
+
+.raevFjaes3 {
+    position: absolute;
+    top: 70px;
     left: 15%;
     width: 160px;
     z-index: 1;
