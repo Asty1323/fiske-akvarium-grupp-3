@@ -105,9 +105,9 @@ body {
 
 .gulfinnetKirurgfisk {
     position: absolute;
-    top: 500px;
+    top: 90px;
     left: 75%;
-    width: 140px;
+    width: 200px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: gulfinnetKirurgfisk 18s linear infinite;
