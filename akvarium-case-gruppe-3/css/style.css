@@ -16,9 +16,9 @@ body {
 
 .kardinalFisk {
     position: absolute;
-    top: 200px;
+    top: 257px;
     left: 120%;
-    width: 257px;
+    width: 120px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -49,6 +49,17 @@ body {
     animation-delay: -1.5s;
 }
 
+.kardinalFisk4 {
+    position: absolute;
+    top: 120px;
+    left: 120%;
+    width: 120px;
+    z-index: 1;
+    /*bottom: 2.8vh;
+    /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: kardinalFisk 18s linear infinite;
+    animation-delay: -0.2s;
+}
 @keyframes kardinalFisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
