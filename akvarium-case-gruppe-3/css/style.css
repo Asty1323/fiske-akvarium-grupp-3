@@ -81,9 +81,9 @@ body {
 
 .gulKirurgfisk2 {
     position: absolute;
-    top: 300px;
+    top: 379px;
     left: 150px;
-    width: 120px;
+    width: 104px;
     z-index: 1;
    left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: gulKirurgfisk 18s linear infinite;
@@ -94,11 +94,33 @@ body {
     position: absolute;
     top: 300px;
     left: 150px;
-    width: 120px;
+    width: 80px;
     z-index: 1;
    left: 130vw; /* starter 30vw uden for skærmen til venstre */
    animation: gulKirurgfisk 18s linear infinite;
-   animation-delay: 1.4s;
+   animation-delay: 1.2s;
+}
+
+.gulKirurgfisk4 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 80px;
+    z-index: 1;
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   animation: gulKirurgfisk 18s linear infinite;
+   animation-delay: 1.2s;
+}
+
+.gulKirurgfisk4 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 80px;
+    z-index: 1;
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   animation: gulKirurgfisk 18s linear infinite;
+   animation-delay: 1.2s;
 }
 
 @keyframes gulKirurgfisk {
