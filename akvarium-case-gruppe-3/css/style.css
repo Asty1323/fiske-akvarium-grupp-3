@@ -18,7 +18,7 @@ body {
     position: absolute;
     top: 257px;
     left: 120%;
-    width: 120px;
+    width: 90px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -29,7 +29,7 @@ body {
     position: absolute;
     top: 160px;
     left: 120%;
-    width: 120px;
+    width: 90px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -41,7 +41,7 @@ body {
     position: absolute;
     top: 220px;
     left: 120%;
-    width: 120px;
+    width: 90px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -53,7 +53,7 @@ body {
     position: absolute;
     top: 120px;
     left: 120%;
-    width: 120px;
+    width: 90px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
