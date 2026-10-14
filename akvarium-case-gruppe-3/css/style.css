@@ -29,7 +29,7 @@ body {
     position: absolute;
     top: 160px;
     left: 120%;
-    width: 150px;
+    width: 120px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -41,12 +41,12 @@ body {
     position: absolute;
     top: 160px;
     left: 120%;
-    width: 150px;
+    width: 120px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFisk 18s linear infinite;
-    animation-delay: -1s;
+    animation-delay: -0.5s;
 }
 
 @keyframes kardinalFisk {
