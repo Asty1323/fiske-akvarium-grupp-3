@@ -287,7 +287,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: 2.4s;
 }
 
@@ -298,7 +298,7 @@ body {
     width: 102px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -0.6s;
 }
 
@@ -309,7 +309,7 @@ body {
     width: 113px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -1s;
 }
 
@@ -320,7 +320,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: 0.6s;
 }
 
@@ -331,7 +331,7 @@ body {
     width: 125px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -1.6s;
 }
 
@@ -342,7 +342,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromisTurn 36s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -0.6s;
 }
 
