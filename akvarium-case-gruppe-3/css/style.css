@@ -183,67 +183,68 @@ body {
 
 .chromis{
    position: absolute;
-    top: 552px;
+    top: 584px;
     left: 65%;
-    width: 123px;
+    width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
+    animation-delay: 2.6s;
 }
 
 .chromis2{
    position: absolute;
-    top: 529px;
+    top: 479px;
     left: 65%;
     width: 102px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -0.8s;
+    animation-delay: -0.6s;
 }
 
 .chromis3{
    position: absolute;
-    top: 552px;
+    top: 532px;
     left: 65%;
-    width: 123px;
+    width: 113px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.2s;
+    animation-delay: -1s;
 }
 
 .chromis4{
    position: absolute;
-    top: 560px;
+    top: 536px;
     left: 65%;
-    width: 123px;
+    width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.2s;
+    animation-delay: 0.6s;
 }
 
 .chromis5{
    position: absolute;
-    top: 570px;
+    top: 553px;
     left: 65%;
-    width: 123px;
+    width: 125px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.2s;
+    animation-delay: -1.6s;
 }
 
 .chromis6{
    position: absolute;
-    top: 580px;
+    top: 578px;
     left: 65%;
-    width: 123px;
+    width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.2s;
+    animation-delay: -0.6s;
 }
 
 @keyframes chromis {
