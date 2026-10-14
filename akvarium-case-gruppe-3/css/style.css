@@ -175,6 +175,61 @@ body {
     animation: chromis 18s linear infinite;
 }
 
+.chromis2{
+   position: absolute;
+    top: 552px;
+    left: 65%;
+    width: 123px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
+    animation-delay: 1;
+}
+
+.chromis3{
+   position: absolute;
+    top: 552px;
+    left: 65%;
+    width: 123px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
+    animation-delay: 1.2;
+}
+
+.chromis4{
+   position: absolute;
+    top: 552px;
+    left: 65%;
+    width: 123px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
+    animation-delay: 1.4;
+}
+
+.chromis5{
+   position: absolute;
+    top: 552px;
+    left: 65%;
+    width: 123px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
+    animation-delay: 1.6;
+}
+
+.chromis6{
+   position: absolute;
+    top: 552px;
+    left: 65%;
+    width: 123px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: chromis 18s linear infinite;
+    animation-delay: 1.8;
+}
+
 @keyframes chromis {
    0%   { transform: translateX(0); }
    100% { transform: translateX(130vw); }
