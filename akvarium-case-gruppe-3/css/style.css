@@ -22,7 +22,7 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -0.3s;
 }
 
@@ -34,7 +34,7 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -2s;
 }
 
@@ -46,7 +46,7 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1.3s;
 }
 
@@ -58,15 +58,31 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1s;
 }
-@keyframes kardinalFisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+
+@keyframes kardinalFiskTurn {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(-150vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(-150vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
-
-
 
 
 .gulKirurgfisk {
@@ -74,50 +90,110 @@ body {
     top: 300px;
     left: 150px;
     width: 120px;
-    z-index: 1;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulKirurgfisk 18s linear infinite;
+    z-index: 2;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 36s linear infinite;
 }
 
 .gulKirurgfisk2 {
     position: absolute;
-    top: 300px;
+    top: 379px;
     left: 150px;
-    width: 120px;
+    width: 104px;
     z-index: 1;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulKirurgfisk 18s linear infinite;
-   animation-delay: 1.4s;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 36s linear infinite;
+    animation-delay: 1.4s;
 }
 
 .gulKirurgfisk3 {
     position: absolute;
     top: 300px;
     left: 150px;
-    width: 120px;
+    width: 80px;
+    z-index: 2;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 36s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.gulKirurgfisk4 {
+    position: absolute;
+    top: 348px;
+    left: 150px;
+    width: 80px;
     z-index: 1;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulKirurgfisk 18s linear infinite;
-   animation-delay: 1.4s;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 36s linear infinite;
+    animation-delay: 2s;
 }
 
-@keyframes gulKirurgfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+.gulKirurgfisk5 {
+    position: absolute;
+    top: 333px;
+    left: 150px;
+    width: 62px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 36s linear infinite;
+    animation-delay: 1.2s;
 }
 
+
+@keyframes gulKirurgfiskTurn {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(-150vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(-150vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
+}
 .raevFjaes {
     position: absolute;
-    top: 300px;
+    top: 70px;
     left: 15%;
     width: 160px;
     z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
 }
 
-   .raevFjaes {
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: raevFjaes 18s linear infinite;
+.raevFjaes2 {
+    position: absolute;
+    top: 146px;
+    left: 15%;
+    width: 133px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: 1s;
+}
+
+.raevFjaes3 {
+    position: absolute;
+    top: 162px;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: -1s;
 }
 
 @keyframes raevFjaes {
@@ -155,7 +231,7 @@ body {
     position: absolute;
     top: 500px;
     left: -150px;
-    width: 110px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
@@ -164,7 +240,7 @@ body {
     position: absolute;
     top: 450px;
     left: -300px;
-    width: 100px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
@@ -173,7 +249,7 @@ body {
     position: absolute;
     top: 560px;
     left: -450px;
-    width: 90px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
@@ -442,4 +518,17 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
 
 #hoerMig img {
     display: block;
+}
+#overlaykardinalFisk {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 2;
+  cursor: pointer;
 }

@@ -37,7 +37,7 @@ const fish = [
         species: "HEJ, JEG ER EN GULFINNET KIRURGFISK!",
         habitat: "Jeg kommer fra Det Indiske Ocean og  Stillehavet.",
         size: "Jeg kan blive op til 36 cm lang.",
-        diet: "Jeg spiser plankton.",
+        diet: "Jeg spiser alger og plankton.",
         funFact: "Vidste du, at gulfinnet kirurgfisk kan skifte farve afhængigt af humør og situation?",
         photo: "img/irlgulfinnetkirurgfisk.png"
     },
@@ -147,5 +147,12 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+
+function onKardinalFisk() {
+  document.getElementById("overlayKardinalFisk").style.display = "block";
+}
+function offKardinalFisk() {
+  document.getElementById("overlayKardinalFisk").style.display = "none";
+}
 
 
