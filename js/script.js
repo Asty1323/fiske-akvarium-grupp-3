@@ -84,5 +84,15 @@ const fish = [
 
 ]
 
+fish.forEach(function(fish) {
+const getFishElem= document.getDocumentById("kardinalFisk");
+
+getFishElem.addEventListener("click", function(){
+  const getRealFish=document.getElementById("irlBanggaiKardinalFisk");
+  getRealFish.style.display="block";
+})
+
+})
+
 
 
