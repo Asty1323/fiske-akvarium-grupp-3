@@ -121,7 +121,7 @@ body {
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: gulfinnetKirurgfisk 18s linear infinite;
-    animation-delay: 1.4ss;
+    animation-delay: 1.4s;
 }
 
 @keyframes gulfinnetKirurgfisk {
