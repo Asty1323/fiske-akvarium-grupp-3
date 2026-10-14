@@ -35,7 +35,7 @@ body {
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFisk 18s linear infinite;
-    animation-delay: -1s;
+    animation-delay: -2s;
 }
 
 .kardinalFisk3 {
@@ -59,7 +59,7 @@ body {
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFisk 18s linear infinite;
-    animation-delay: -0.2s;
+    animation-delay: -1s;
 }
 @keyframes kardinalFisk {
    0%   { transform: translateX(0); }
