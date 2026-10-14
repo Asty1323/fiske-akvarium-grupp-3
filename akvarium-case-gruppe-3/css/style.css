@@ -129,26 +129,42 @@ body {
    100% { transform: translateX(-130vw); }
 }
 
-
 .nemo {
     position: absolute;
-    top: 550px;
-    left: 42%;
+    top: 500px;
+    left: -150px;
     width: 110px;
     z-index: 1;
+    animation: nemo 18s linear infinite;
 }
 
- .nemo{
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: nemo 18s linear infinite;
+.nemo2 {
+    position: absolute;
+    top: 450px;
+    left: -300px;
+    width: 100px;
+    z-index: 1;
+    animation: nemo 18s linear infinite;
+}
+
+.nemo3 {
+    position: absolute;
+    top: 560px;
+    left: -450px;
+    width: 90px;
+    z-index: 1;
+    animation: nemo 18s linear infinite;
 }
 
 @keyframes nemo {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
-}
+    from {
+        transform: translateX(0);
+    }
 
+    to {
+        transform: translateX(calc(100vw + 600px));
+    }
+}
 
 .paletKirurgfisk{
     position: absolute;
