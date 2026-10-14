@@ -22,7 +22,7 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalfisk 18s linear infinite;
+    animation: kardinalFisk 18s linear infinite;
 }
 
 .kardinalFisk2 {
@@ -33,7 +33,8 @@ body {
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalfisk 18s linear infinite;
+    animation: kardinalFisk 18s linear infinite;
+    animation-delay: -9s;
 }
 
 @keyframes kardinalFisk {
