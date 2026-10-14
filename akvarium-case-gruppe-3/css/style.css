@@ -167,9 +167,9 @@ body {
 
 .chromis{
    position: absolute;
-    top: 400px;
+    top: 552px;
     left: 65%;
-    width: 120px;
+    width: 123px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
