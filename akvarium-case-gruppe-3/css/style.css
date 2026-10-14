@@ -30,6 +30,21 @@ body {
    100% { transform: translateX(-130vw); }
 }
 
+.kardinalfisk2 {
+    position: absolute;
+    top: 200px;
+    left: 120%;
+    width: 150px;
+    z-index: 1;
+    /*bottom: 2.8vh;
+    /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: kardinalfisk 18s linear infinite;
+}
+
+@keyframes kardinalfisk2 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw); }
+}
 
 .gulKirurgfisk {
     position: absolute;
