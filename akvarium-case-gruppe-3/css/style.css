@@ -189,13 +189,13 @@ body {
 
 .chromis3{
    position: absolute;
-    top: 589px;
+    top: 532px;
     left: 65%;
-    width: 101px;
+    width: 113px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.8s;
+    animation-delay: -1s;
 }
 
 .chromis4{
@@ -211,13 +211,13 @@ body {
 
 .chromis5{
    position: absolute;
-    top: 570px;
+    top: 553px;
     left: 65%;
-    width: 101px;
+    width: 125px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.8s;
+    animation-delay: -1.6s;
 }
 
 .chromis6{
