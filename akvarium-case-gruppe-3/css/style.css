@@ -173,7 +173,7 @@ body {
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: 2.6s;
+    animation-delay: 2.4s;
 }
 
 .chromis2{
