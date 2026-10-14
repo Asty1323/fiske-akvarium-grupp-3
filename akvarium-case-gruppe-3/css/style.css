@@ -199,35 +199,35 @@ body {
 
 .chromis4{
    position: absolute;
-    top: 552px;
+    top: 560px;
     left: 65%;
     width: 123px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.4;
+    animation-delay: -1.2s;
 }
 
 .chromis5{
    position: absolute;
-    top: 552px;
+    top: 570px;
     left: 65%;
     width: 123px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.6;
+    animation-delay: -1.2s;
 }
 
 .chromis6{
    position: absolute;
-    top: 552px;
+    top: 580px;
     left: 65%;
     width: 123px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
-    animation-delay: -1.8;
+    animation-delay: -1.2s;
 }
 
 @keyframes chromis {
