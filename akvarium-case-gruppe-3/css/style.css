@@ -14,7 +14,7 @@ body {
 }
 
 
-.kardinalfisk {
+.kardinalFisk {
     position: absolute;
     top: 200px;
     left: 120%;
@@ -36,7 +36,7 @@ body {
     animation: kardinalfisk 18s linear infinite;
 }
 
-@keyframes kardinalfisk {
+@keyframes kardinalFisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
 }
