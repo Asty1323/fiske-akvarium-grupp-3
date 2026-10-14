@@ -79,6 +79,50 @@ body {
    animation: gulKirurgfisk 18s linear infinite;
 }
 
+.gulKirurgfisk2 {
+    position: absolute;
+    top: 379px;
+    left: 150px;
+    width: 104px;
+    z-index: 1;
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   animation: gulKirurgfisk 18s linear infinite;
+   animation-delay: 1.4s;
+}
+
+.gulKirurgfisk3 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 80px;
+    z-index: 2;
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   animation: gulKirurgfisk 18s linear infinite;
+   animation-delay: 1.2s;
+}
+
+.gulKirurgfisk4 {
+    position: absolute;
+    top: 348px;
+    left: 150px;
+    width: 80px;
+    z-index: 1;
+   left: 130vw; /* starter 30vw uden for skærmen til venstre */
+   animation: gulKirurgfisk 18s linear infinite;
+   animation-delay: 2s;
+}
+
+.gulKirurgfisk5 {
+    position: absolute;
+    top: 333px;
+    left: 150px;
+    width: 62px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfisk 18s linear infinite;
+    animation-delay: 1.2s;
+}
+
 @keyframes gulKirurgfisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
@@ -86,16 +130,37 @@ body {
 
 .raevFjaes {
     position: absolute;
-    top: 300px;
+    top: 70px;
     left: 15%;
     width: 160px;
     z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
 }
 
-   .raevFjaes {
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: raevFjaes 18s linear infinite;
+.raevFjaes2 {
+    position: absolute;
+    top: 146px;
+    left: 15%;
+    width: 133px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: 1s;
+}
+
+.raevFjaes3 {
+    position: absolute;
+    top: 162px;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: -1s;
 }
 
 @keyframes raevFjaes {
@@ -133,7 +198,7 @@ body {
     position: absolute;
     top: 500px;
     left: -150px;
-    width: 110px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
@@ -142,7 +207,7 @@ body {
     position: absolute;
     top: 450px;
     left: -300px;
-    width: 100px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
@@ -151,7 +216,7 @@ body {
     position: absolute;
     top: 560px;
     left: -450px;
-    width: 90px;
+    width: 80px;
     z-index: 1;
     animation: nemo 18s linear infinite;
 }
