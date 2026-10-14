@@ -95,4 +95,11 @@ getFishElem.addEventListener("click", function(){
 })
 
 
+function onKardinalFisk() {
+  document.getElementById("overlayKardinalFisk").style.display = "block";
+}
+function offKardinalFisk() {
+  document.getElementById("overlayKardinalFisk").style.display = "none";
+}
+
 
