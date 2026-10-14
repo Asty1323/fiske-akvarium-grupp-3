@@ -16,7 +16,7 @@ body {
 
 .kardinalFisk {
     position: absolute;
-    top: 257px;
+    top: 444px;
     left: 120%;
     width: 90px;
     z-index: 1;
@@ -28,7 +28,7 @@ body {
 
 .kardinalFisk2 {
     position: absolute;
-    top: 160px;
+    top: 340px;
     left: 120%;
     width: 90px;
     z-index: 1;
@@ -40,19 +40,19 @@ body {
 
 .kardinalFisk3 {
     position: absolute;
-    top: 220px;
+    top: 412px;
     left: 120%;
     width: 90px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFisk 18s linear infinite;
-    animation-delay: -1.5s;
+    animation-delay: -1.3s;
 }
 
 .kardinalFisk4 {
     position: absolute;
-    top: 120px;
+    top: 304px;
     left: 120%;
     width: 90px;
     z-index: 1;
