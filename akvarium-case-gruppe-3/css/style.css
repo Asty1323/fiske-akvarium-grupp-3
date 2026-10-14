@@ -18,7 +18,7 @@ body {
     position: absolute;
     top: 200px;
     left: 120%;
-    width: 150px;
+    width: 120px;
     z-index: 1;
     /*bottom: 2.8vh;
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
@@ -135,7 +135,7 @@ body {
    position: absolute;
     top: 400px;
     left: 65%;
-    width: 90px;
+    width: 120px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: chromis 18s linear infinite;
@@ -150,7 +150,7 @@ body {
     position: absolute;
     top: 50px;
     left: 45%;
-    width: 200px;
+    width: 120px;
     z-index: 2;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: kuglefisk 18s linear infinite;
