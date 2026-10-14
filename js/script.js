@@ -83,16 +83,69 @@ const fish = [
     },
 
 ]
+const overlay = document.getElementById("infoOverlay");
+const lukKnap = document.getElementById("lukBoble");
+let valgtFisk;
 
-fish.forEach(function(fish) {
-const getFishElem= document.getElementById(fish.id);
+function aabnBoble(fisk, element) {
+    valgtFisk = element;
+const tegnetFisk = document.getElementById("valgtFiskFoto");
+tegnetFisk.src = element.src;
+tegnetFisk.alt = element.alt;
+    document.getElementById("infoTitel").textContent = fisk.species;
+    document.getElementById("infoFoto").src = fisk.photo;
+    document.getElementById("infoFoto").alt = element.alt;
+    document.getElementById("infoHabitat").textContent = fisk.habitat;
+    document.getElementById("infoSize").textContent = fisk.size;
+    document.getElementById("infoDiet").textContent = fisk.diet;
+    document.getElementById("infoFunFact").textContent = fisk.funFact;
 
-getFishElem.addEventListener("click", function(){
-  const getRealFish=document.getElementById("irl"+fish.id);
-  getRealFish.style.display="block";
-})
+    overlay.hidden = false;
+    lukKnap.focus();
+}
 
-})
+function lukBoble() {
+    overlay.hidden = true;
+    valgtFisk?.focus();
+}
+
+fish.forEach(function(fisk) {
+    // Finder også kopierne, fx nemo2 og nemo3
+    const fiskene = document.querySelectorAll(
+        'img[id^="' + fisk.id + '"]'
+    );
+
+    fiskene.forEach(function(element) {
+        element.style.cursor = "pointer";
+        element.tabIndex = 0;
+        element.setAttribute("role", "button");
+
+        element.addEventListener("click", function() {
+            aabnBoble(fisk, element);
+        });
+
+        element.addEventListener("keydown", function(event) {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                aabnBoble(fisk, element);
+            }
+        });
+    });
+});
+
+lukKnap.addEventListener("click", lukBoble);
+
+overlay.addEventListener("click", function(event) {
+    if (event.target === overlay) {
+        lukBoble();
+    }
+});
+
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape" && !overlay.hidden) {
+        lukBoble();
+    }
+});
 
 
 

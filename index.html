@@ -48,23 +48,34 @@
 
     <img src="img/kuglefisk.svg" alt="kuglefisk" class="kuglefisk" id="kugleFisk">
 
-    <!-- Billeder af rigtige fisk-->
-    <img src="img/irlbanggaikardinalfisk.png" alt="irlBanggaiKardinalFisk" class="irlBanggaiKardinalFisk" id="irlBanggaiKardinalFisk">
+   <!-- Infoboble -->
+<div id="infoOverlay" hidden>
+    <div id="boblesSene">
+    <img id="valgtFiskFoto" alt="">
 
-    <img src="img/irlgulkirurgfisk.png" alt="gulKirurgFisk" class="gulKirurgFisk" id="gulKirurgFisk">
+    <img id="lilleBoble"
+     src="img/Bobbel/Lille Bobbel.svg" alt="">
 
-    <img src="img/irlraevefjaes.png" alt="raeveFjaes" class="raeveFjaes" id="raeveFjaes">
+    <img id="mediumBoble"
+     src="img/Bobbel/Medium bubble.svg" alt="">
+    
 
-    <img src="img/irlgulfinnetkirurgfisk.png" alt="gulfinnetKirurgFisk" class="gulfinnetKirurgFisk" id="gulfinnetKirurgFisk">
+   <button id="lukBoble" aria-label="Luk infoboblen">✕</button>
 
-    <img src="img/irlnemo.png" alt="irlnemo" class="irlnemo" id="irlnemo">
+   <section id="infoBoble" role="dialog" aria-modal="true"
+         aria-labelledby="infoTitel">
+        <h2 id="infoTitel"></h2>
+        <img id="infoFoto" src="" alt="">
 
-    <img src="img/irlpaletkirurgfisk.png" alt="paletKirurgFisk" class="paletKirurgFisk" id="paletKirurgFisk">
-
-    <img src="img/irlchromis.png" alt="irlChromis" class="irlChromis" id="irlChromis">
-
-    <img src="img/irlkuglefisk.png" alt="irlKugleFisk" class="irlKugleFisk" id="irlkuglefisk">
-   
+        <p id="infoHabitat"></p>
+        <p id="infoSize"></p>
+        <p id="infoDiet"></p>
+        <p id="infoFunFact"></p>
+        <button id="hoerMig" type="button" aria-label="Hør om fisken">
+    <img src="img/knap.svg" alt="Hør mig">
+</button>
+    </section>
+</div>
     <script src="js/script.js"></script>
 </body>
 </html>
