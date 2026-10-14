@@ -25,12 +25,7 @@ body {
     animation: kardinalfisk 18s linear infinite;
 }
 
-@keyframes kardinalfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
-}
-
-.kardinalfisk2 {
+.kardinalFisk2 {
     position: absolute;
     top: 160px;
     left: 120%;
@@ -41,10 +36,13 @@ body {
     animation: kardinalfisk 18s linear infinite;
 }
 
-@keyframes kardinalfisk2 {
+@keyframes kardinalfisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
 }
+
+
+
 
 .gulKirurgfisk {
     position: absolute;
