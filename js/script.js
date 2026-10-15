@@ -9,7 +9,8 @@ const fish = [
         size: "Jeg kan blive op til 8 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at Banggai-kardinalfisken er en af de få fisk, hvor hannen ruger æggene i munden?",
-        photo: "img/irlbanggaikardinalfisk.png" 
+        photo: "img/irlbanggaikardinalfisk.png",
+        sound: "bangai.fisk.wav"
     },
 
       {
@@ -19,7 +20,8 @@ const fish = [
         size: "Jeg kan blive op til 20 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at gul kirurgfisk kan bruge sin skarpe “skalpel” ved haleroden som forsvarsvåben?",
-        photo: "img/irlgulkirurgfisk.png"
+        photo: "img/irlgulkirurgfisk.png",
+        sound:""
     },
 
       {
@@ -179,11 +181,11 @@ document.addEventListener("keydown", function(event) {
 });
 
 
-function onKardinalFisk() {
+/* function onKardinalFisk() {
   document.getElementById("overlayKardinalFisk").style.display = "flex";
 }
 function offKardinalFisk() {
   document.getElementById("overlayKardinalFisk").style.display = "none";
-}
+} */
 
 
