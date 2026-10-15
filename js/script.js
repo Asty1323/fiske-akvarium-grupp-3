@@ -196,11 +196,4 @@ const hoermig = document.getElementById("hoerMig");
 hoermig.addEventListener("click", function() {playSound(fish)})
 
 
-/* function onKardinalFisk() {
-  document.getElementById("overlayKardinalFisk").style.display = "flex";
-}
-function offKardinalFisk() {
-  document.getElementById("overlayKardinalFisk").style.display = "none";
-} */
-
 

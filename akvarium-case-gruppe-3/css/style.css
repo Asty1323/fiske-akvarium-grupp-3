@@ -264,7 +264,7 @@ body {
 .nemo {
     position: absolute;
     top: 500px;
-    left: -150px;
+    left: -10vw;
     width: 80px;
     z-index: 1;
     animation: nemoTurn 36s linear infinite;
@@ -273,7 +273,7 @@ body {
 .nemo2 {
     position: absolute;
     top: 450px;
-    left: -300px;
+    left: -20vw;
     width: 80px;
     z-index: 1;
     animation: nemoTurn 36s linear infinite;
@@ -282,7 +282,7 @@ body {
 .nemo3 {
     position: absolute;
     top: 560px;
-    left: -450px;
+    left: -30vw;
     width: 80px;
     z-index: 1;
     animation: nemoTurn 36s linear infinite;
@@ -319,7 +319,7 @@ body {
     width: 106px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: paletKirurgfiskTurn 36s linear infinite;
+    animation: paletKirurgfiskTurn 56s linear infinite;
     animation-delay: 3.8s;
 }
 
@@ -328,9 +328,9 @@ body {
     top:  537px;
     left: 30%;
     width: 106px;
-    z-index: 1;
+    z-index: 2;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: paletKirurgfiskTurn 36s linear infinite;
+    animation: paletKirurgfiskTurn 56s linear infinite;
     animation-delay: 3s;
 }
 
@@ -341,8 +341,8 @@ body {
     width: 88px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: paletKirurgfiskTurn 36s linear infinite;
-    animation-delay: 2.4s;
+    animation: paletKirurgfiskTurn 56s linear infinite;
+    animation-delay: 1.4s;
 }
 
 .paletKirurgfisk4{
@@ -352,7 +352,7 @@ body {
     width: 106px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: paletKirurgfiskTurn 36s linear infinite;
+    animation: paletKirurgfiskTurn 56s linear infinite;
     animation-delay: 2.4s;
 }
 
@@ -503,7 +503,7 @@ body {
 }
 
 #infoOverlay[hidden] {
-    display: none;
+display: none;
 }
 
 #infoOverlay {
@@ -521,8 +521,10 @@ body {
 /* Holder fisk og bobler samlet på skærmen */
 #boblesSene {
     position: relative;
-    width: min(900px, 96vw, 130vh);
+    width: min(900px, 96vw);
+    max-height: 90vh;
     aspect-ratio: 1.4;
+    margin: auto;
 }
 
 /* Den tegnede fisk ved siden af boblerne */
@@ -622,13 +624,14 @@ text-align: center;
 
 
 #lukBoble {
-    position: absolute;
-    top: 5%;
-    right: 5%;
+     position: absolute;
+    top: 3%;
+    right: 3%;
     border: none;
     background: transparent;
-    color: #E94C06;
-    font-size: 26px;
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 900;
     cursor: pointer;
     z-index: 10;
 }
@@ -674,11 +677,4 @@ text-align: center;
   cursor: pointer;
   justify-content: center;
   align-items: center;
-}
-
-#overlayKardinalFisk img {
- max-width: 100%;
-  max-height: 100vh;
-  width: auto;
-  height: auto;
 }
