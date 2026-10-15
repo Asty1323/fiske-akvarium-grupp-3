@@ -31,7 +31,7 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -0.3s;
@@ -43,7 +43,7 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -2s;
@@ -55,7 +55,7 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1.3s;
@@ -67,7 +67,7 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1s;
@@ -583,7 +583,6 @@ body {
 color: #ffffff;
 font-family: "Barlow";
 text-align: center;
-text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
     transform-origin: bottom left;
     animation: pustBoble 0.7s ease-out 0.75s both;
 }
@@ -591,17 +590,21 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
 #infoTitel {
     margin: 0;
     width: 100%;
-    font-size: clamp(13px, 1.7vw, 21px);
+    font-size:clamp(30px, 4vw, 40px);
     line-height: 1.2;
     overflow-wrap: break-word;
+    font-family: "Apex New", sans-serif;
+    font-style: italic;
+    color: #E94C06;
+    white-space: pre-line;
 }
 
 #infoFoto {
     position: static;
     display: block;
-    width: 120px;
-    max-width: 40%;
-    height: 75px;
+    width: 190px;
+    max-width: 60%;
+    height: 130px;
     object-fit: contain;
     flex-shrink: 0;
     margin: 0;
@@ -612,13 +615,10 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
 #infoBoble p {
     margin: 0;
     width: 100%;
-    font-size: clamp(11px, 1.25vw, 16px);
+    font-size: clamp(18px, 1.6vw, 22px);
     line-height: 1.35;
 }
 
-#infoFunFact {
-    font-weight: bold;
-}
 
 #lukBoble {
     position: absolute;
