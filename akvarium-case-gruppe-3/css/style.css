@@ -503,7 +503,7 @@ body {
 }
 
 #infoOverlay[hidden] {
-    display: none;
+display: none;
 }
 
 #infoOverlay {
@@ -521,8 +521,10 @@ body {
 /* Holder fisk og bobler samlet på skærmen */
 #boblesSene {
     position: relative;
-    width: min(900px, 96vw, 130vh);
+    width: min(900px, 96vw);
+    max-height: 90vh;
     aspect-ratio: 1.4;
+    margin: auto;
 }
 
 /* Den tegnede fisk ved siden af boblerne */
