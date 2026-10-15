@@ -614,7 +614,7 @@ text-align: center;
 #infoBoble p {
     margin: 0;
     width: 100%;
-    font-size: clamp(11px, 1.25vw, 16px);
+    font-size: clamp(18px, 1.6vw, 22px);
     line-height: 1.35;
 }
 
