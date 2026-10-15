@@ -21,7 +21,7 @@ const fish = [
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at gul kirurgfisk kan bruge sin skarpe “skalpel” ved haleroden som forsvarsvåben?",
         photo: "img/irlgulkirurgfisk.png",
-        sound:""
+        sound:"gul.kirugfisk.wv"
     },
 
       {
@@ -31,7 +31,8 @@ const fish = [
         size: "Jeg kan blive op til 25 cm lang.",
         diet: "Jeg spiser alger og plankton.",
         funFact: "Vidste du, at rævefjæs har en smart forsvarsmekanisme? Den har giftige pigge på finnerne!",
-        photo: "img/irlraevefjaes.png"
+        photo: "img/irlraevefjaes.png",
+        sound:""
     },
 
       {
@@ -41,7 +42,8 @@ const fish = [
         size: "Jeg kan blive op til 36 cm lang.",
         diet: "Jeg spiser alger og plankton.",
         funFact: "Vidste du, at gulfinnet kirurgfisk kan skifte farve afhængigt af humør og situation?",
-        photo: "img/irlgulfinnetkirurgfisk.png"
+        photo: "img/irlgulfinnetkirurgfisk.png",
+        sound:"gulfinnet.kirugfisk.wav"
     },
 
       {
@@ -51,7 +53,8 @@ const fish = [
         size: "Jeg kan blive op til 11 cm lang.",
         diet: "Jeg spiser alger og smådyr.",
         funFact: "Vidste du, at klovfisk (også kendt som Nemo fra filmen “Find Nemo”) kan skifte køn? Det gør de hvis der mangler en ynglehun i flokken.",
-        photo: "img/irlnemo.png"
+        photo: "img/irlnemo.png",
+        sound:"nemo.wav"
     },
 
      {
@@ -61,7 +64,8 @@ const fish = [
         size: "Jeg kan blive op til 15 cm lang.",
         diet: "Jeg spiser plankton.",
         funFact: "Vidste du, at paletkirurgfisken (også kendt som Dory fra filmen “Find Nemo”) har en giftig pig ved haleroden, som den bruger til at forsvare sig med?",
-        photo: "img/irlpaletkirurgfisk.png"
+        photo: "img/irlpaletkirurgfisk.png",
+        sound:"palet.kirugfisk.wav"
     },
 
       {
@@ -71,7 +75,8 @@ const fish = [
         size: "Jeg kan blive op til 10 cm lang.",
         diet: "Jeg spiser alger og plankton.",
         funFact: "Vidste du, at chromis kan leve i store stimer på flere hundrede fisk? De bevæger sig synkront, hvilket gør det svært for rovfisk at udpege én bestemt fisk.",
-        photo: "img/irlchromis.png"
+        photo: "img/irlchromis.png",
+        sound:"chromis.wav"
     },
 
       {
@@ -81,7 +86,8 @@ const fish = [
         size: "Jeg kan blive 43 cm lang.",
         diet: "Jeg spiser muslinger, krabber og snegle.",
         funFact: "Vidste du at når jeg bliver bange, puster jeg mig op til en bold?",
-        photo: "img/irlkuglefisk.png"
+        photo: "img/irlkuglefisk.png",
+        sound: "kuglefisk.wav"
     },
 
 ]
@@ -179,6 +185,15 @@ document.addEventListener("keydown", function(event) {
         lukBoble();
     }
 });
+
+function playSound(fish) {
+   const audio = new Audio(fish.sound);
+   audio.play();
+}
+
+const hoermig = document.getElementById("hoerMig");
+
+hoermig.addEventListener("click", function() {playSound(fish)})
 
 
 /* function onKardinalFisk() {
