@@ -269,7 +269,7 @@ body {
     position: absolute;
     top: 600px;
     left: 30%;
-    width: 150px;
+    width: 106px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
@@ -277,32 +277,35 @@ body {
 
 .paletKirurgfisk2{
     position: absolute;
-    top: 600px;
+    top:  537px;
     left: 30%;
-    width: 150px;
+    width: 106px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
+    animation-delay: 2.4s;
 }
 
 .paletKirurgfisk3{
     position: absolute;
     top: 600px;
     left: 30%;
-    width: 150px;
+    width: 106px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
+    animation-delay: 2.4s;
 }
 
 .paletKirurgfisk4{
     position: absolute;
     top: 600px;
     left: 30%;
-    width: 150px;
+    width: 106px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfisk 18s linear infinite;
+    animation-delay: 2.4s;
 }
 
 @keyframes paletKirurgfisk {
