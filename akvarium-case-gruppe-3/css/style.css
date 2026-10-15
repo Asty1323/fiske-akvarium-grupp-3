@@ -17,13 +17,12 @@ body {
 
 .background {
     width: 100%;
-    min-height: 70vh;
-    background-size: contain;
+    height: 100vh;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 0;
 }
-
 
 .kardinalFisk {
     position: absolute;
@@ -617,18 +616,20 @@ text-align: center;
     width: 100%;
     font-size: clamp(18px, 1.6vw, 22px);
     line-height: 1.35;
+    white-space: pre-line;
 }
 
 
 #lukBoble {
     position: absolute;
-    top: 14%;
-    right: 17%;
+    top: 5%;
+    right: 5%;
     border: none;
     background: transparent;
-    color: #062636;
+    color: #E94C06;
     font-size: 26px;
     cursor: pointer;
+    z-index: 10;
 }
 
 /* Vokser fra lille til stor med et let hop */
