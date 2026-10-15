@@ -447,15 +447,36 @@ body {
     width: 140px;
     z-index: 2;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kuglefisk 18s linear infinite;
+    animation: kuglefiskTurn 36s linear infinite;
 }
 
-@keyframes kuglefisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+@keyframes kuglefiskTurn {
 
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
 
+    45% {
+        transform: translateX(130vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(130vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
+
+
+
+
+
 #infoOverlay[hidden] {
     display: none;
 }
