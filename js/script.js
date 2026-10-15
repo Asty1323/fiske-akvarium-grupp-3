@@ -181,11 +181,4 @@ document.addEventListener("keydown", function(event) {
 });
 
 
-/* function onKardinalFisk() {
-  document.getElementById("overlayKardinalFisk").style.display = "flex";
-}
-function offKardinalFisk() {
-  document.getElementById("overlayKardinalFisk").style.display = "none";
-} */
-
 
