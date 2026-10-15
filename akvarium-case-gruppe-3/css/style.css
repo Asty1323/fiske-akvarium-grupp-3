@@ -8,7 +8,6 @@
     src: url(ApexNewTrial-BoldItalic-BF66724ea4ea840.otf);
 }
 
-
 body {
     margin: 0;
     position: relative;
@@ -494,10 +493,6 @@ body {
         transform: translateX(0) scaleX(1);
     }
 }
-
-
-
-
 
 #infoOverlay[hidden] {
     display: none;
