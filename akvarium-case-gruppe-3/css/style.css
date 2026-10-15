@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Barlow" ;
+    src: url(Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Apex New" ;
+    src: url(ApexNewTrial-BoldItalic-BF66724ea4ea840.otf);
+}
+
 body {
     margin: 0;
     position: relative;
@@ -5,7 +15,14 @@ body {
 }
 
 .background {
-    position: fixed;
+  /*   width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+     */
+     position: fixed;
     inset: 0;
     width: 100%;
     height: 100%;
@@ -13,16 +30,15 @@ body {
     z-index: 0;
 }
 
-
 .kardinalFisk {
     position: absolute;
     top: 444px;
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -0.3s;
 }
 
@@ -32,9 +48,9 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -2s;
 }
 
@@ -44,9 +60,9 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1.3s;
 }
 
@@ -56,17 +72,33 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;
+    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kardinalFisk 18s linear infinite;
+    animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1s;
 }
-@keyframes kardinalFisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+
+@keyframes kardinalFiskTurn {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(-150vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(-150vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
-
-
 
 
 .gulKirurgfisk {
@@ -75,27 +107,110 @@ body {
     left: 150px;
     width: 120px;
     z-index: 2;
-   left: 130vw; /* starter 30vw uden for skærmen til venstre */
-   animation: gulKirurgfisk 18s linear infinite;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 40s linear infinite;
 }
 
-@keyframes gulKirurgfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+.gulKirurgfisk2 {
+    position: absolute;
+    top: 379px;
+    left: 150px;
+    width: 104px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 40s linear infinite;
+    animation-delay: 1.4s;
+}
+
+.gulKirurgfisk3 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 80px;
+    z-index: 2;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 40s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.gulKirurgfisk4 {
+    position: absolute;
+    top: 348px;
+    left: 150px;
+    width: 80px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 40s linear infinite;
+    animation-delay: 2s;
+}
+
+.gulKirurgfisk5 {
+    position: absolute;
+    top: 333px;
+    left: 150px;
+    width: 62px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: gulKirurgfiskTurn 40s linear infinite;
+    animation-delay: 1.2s;
+}
+
+
+@keyframes gulKirurgfiskTurn {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(-150vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(-150vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
 
 .raevFjaes {
     position: absolute;
-    top: 300px;
+    top: 70px;
     left: 15%;
     width: 160px;
     z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
 }
 
-   .raevFjaes {
-   bottom: 2.8vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: raevFjaes 18s linear infinite;
+.raevFjaes2 {
+    position: absolute;
+    top: 146px;
+    left: 15%;
+    width: 133px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: 1s;
+}
+
+.raevFjaes3 {
+    position: absolute;
+    top: 162px;
+    left: 15%;
+    width: 160px;
+    z-index: 1;
+    bottom: 2.8vh;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: raevFjaes 18s linear infinite;
+    animation-delay: -1s;
 }
 
 @keyframes raevFjaes {
@@ -110,7 +225,7 @@ body {
     width: 200px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: gulfinnetKirurgfisk 18s linear infinite;
+    animation: gulfinnetKirurgfiskTurn 36s linear infinite;
 }
 
 .gulfinnetKirurgfisk2 {
@@ -120,49 +235,80 @@ body {
     width: 200px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: gulfinnetKirurgfisk 18s linear infinite;
+    animation: gulfinnetKirurgfiskTurn 36s linear infinite;
     animation-delay: 1.4s;
 }
 
-@keyframes gulfinnetKirurgfisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(-130vw); }
+@keyframes gulfinnetKirurgfiskTurn {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(-150vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(-150vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
 
 .nemo {
     position: absolute;
     top: 500px;
-    left: -150px;
-    width: 110px;
+    left: -10vw;
+    width: 80px;
     z-index: 1;
-    animation: nemo 18s linear infinite;
+    animation: nemoTurn 36s linear infinite;
 }
 
 .nemo2 {
     position: absolute;
     top: 450px;
-    left: -300px;
-    width: 100px;
+    left: -20vw;
+    width: 80px;
     z-index: 1;
-    animation: nemo 18s linear infinite;
+    animation: nemoTurn 36s linear infinite;
 }
 
 .nemo3 {
     position: absolute;
     top: 560px;
-    left: -450px;
-    width: 90px;
+    left: -30vw;
+    width: 80px;
     z-index: 1;
-    animation: nemo 18s linear infinite;
+    animation: nemoTurn 36s linear infinite;
 }
 
-@keyframes nemo {
-    from {
-        transform: translateX(0);
+
+@keyframes nemoTurn {
+
+    0% {
+        transform: translateX(0) scaleX(1);
     }
 
-    to {
-        transform: translateX(calc(100vw + 600px));
+    45% {
+        transform: translateX(130vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(130vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
     }
 }
 
@@ -187,6 +333,7 @@ body {
 .paletKirurgfisk3 {
     position: absolute;
     top: 600px;
+<<<<<<< HEAD
     left: calc(100vw + 390px);
     width: 120px;
     z-index: 1;
@@ -200,6 +347,70 @@ body {
 
     to {
         transform: translateX(calc(-100vw - 600px));
+=======
+    left: 30%;
+    width: 106px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfiskTurn 56s linear infinite;
+    animation-delay: 3.8s;
+}
+
+.paletKirurgfisk2{
+    position: absolute;
+    top:  537px;
+    left: 30%;
+    width: 106px;
+    z-index: 2;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfiskTurn 56s linear infinite;
+    animation-delay: 3s;
+}
+
+.paletKirurgfisk3{
+    position: absolute;
+    top: 559px;
+    left: 30%;
+    width: 88px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfiskTurn 56s linear infinite;
+    animation-delay: 1.4s;
+}
+
+.paletKirurgfisk4{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    width: 106px;
+    z-index: 1;
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfiskTurn 56s linear infinite;
+    animation-delay: 2.4s;
+}
+
+
+@keyframes paletKirurgfiskTurn {
+
+    0% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    45% {
+        transform: translateX(160vw) scaleX(-1);
+    }
+
+    50% {
+        transform: translateX(160vw) scaleX(1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(-1);
+>>>>>>> cc6fa94ce9883b86707a88d5ce25f07f7d8e3771
     }
 }
 
@@ -210,7 +421,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: 2.4s;
 }
 
@@ -221,7 +432,7 @@ body {
     width: 102px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -0.6s;
 }
 
@@ -232,7 +443,7 @@ body {
     width: 113px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -1s;
 }
 
@@ -243,7 +454,7 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: 0.6s;
 }
 
@@ -254,7 +465,7 @@ body {
     width: 125px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -1.6s;
 }
 
@@ -265,13 +476,31 @@ body {
     width: 101px;
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: chromis 18s linear infinite;
+    animation: chromisTurn 30s linear infinite;
     animation-delay: -0.6s;
 }
 
-@keyframes chromis {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+@keyframes chromisTurn {
+
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(130vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(130vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 }
 
 .kuglefisk{
@@ -281,12 +510,205 @@ body {
     width: 140px;
     z-index: 2;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
-    animation: kuglefisk 18s linear infinite;
+    animation: kuglefiskTurn 36s linear infinite;
 }
 
-@keyframes kuglefisk {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+@keyframes kuglefiskTurn {
+
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(130vw) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(130vw) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
+}
+
+#infoOverlay[hidden] {
+display: none;
+}
+
+#infoOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 35, 65, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Holder fisk og bobler samlet på skærmen */
+#boblesSene {
+    position: relative;
+    width: min(900px, 96vw);
+    max-height: 90vh;
+    aspect-ratio: 1.4;
+    margin: auto;
+}
+
+/* Den tegnede fisk ved siden af boblerne */
+#valgtFiskFoto {
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    width: 24%;
+    height: 30%;
+    object-fit: contain;
+    transform: scaleX(1);
+}
+
+/* Første boble */
+#lilleBoble {
+    position: absolute;
+    left: 19%;
+    bottom: 37%;
+    width: 6%;
+    height: auto;
+    transform-origin: bottom left;
+    animation: pustBoble 0.45s ease-out 0.1s both;
+}
+
+/* Anden boble */
+#mediumBoble {
+    position: absolute;
+    left: 21%;
+    bottom: 47%;
+    width: 10%;
+    height: auto;
+    transform-origin: bottom left;
+    animation: pustBoble 0.5s ease-out 0.4s both;
+}
+
+/* Stor boble med teksten indenfor */
+#infoBoble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 68%;
+    height: 96%;
+    padding: 10% 9% 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    border: none;
+    background-image: url("../../img/Bobbel/Info bobbel.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: none;
+
+color: #ffffff;
+font-family: "Barlow";
+text-align: center;
+    transform-origin: bottom left;
+    animation: pustBoble 0.7s ease-out 0.75s both;
+}
+
+#infoTitel {
+    margin: 0;
+    width: 100%;
+    font-size:clamp(30px, 4vw, 40px);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    font-family: "Apex New", sans-serif;
+    font-style: italic;
+    color: #E94C06;
+    white-space: pre-line;
+}
+
+#infoFoto {
+    position: static;
+    display: block;
+    width: 190px;
+    max-width: 60%;
+    height: 130px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin: 0;
+    animation: none;
+    transform: none;
+}
+
+#infoBoble p {
+    margin: 0;
+    width: 100%;
+    font-size: clamp(18px, 1.6vw, 22px);
+    line-height: 1.35;
+    white-space: pre-line;
 }
 
 
+#lukBoble {
+     position: absolute;
+    top: 3%;
+    right: 3%;
+    border: none;
+    background: transparent;
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Vokser fra lille til stor med et let hop */
+@keyframes pustBoble {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: scale(1.06);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+#hoerMig {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#hoerMig img {
+    display: block;
+}
+#overlaykardinalFisk {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 2;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
