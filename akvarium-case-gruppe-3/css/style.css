@@ -210,7 +210,7 @@ body {
     width: 200px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: gulfinnetKirurgfiskTurn 18s linear infinite;
+    animation: gulfinnetKirurgfiskTurn 36s linear infinite;
 }
 
 .gulfinnetKirurgfisk2 {
@@ -220,7 +220,7 @@ body {
     width: 200px;
     z-index: 1;
     left: 130vw; /* starter 30vw uden for skærmen til venstre */
-    animation: gulfinnetKirurgfiskTurn 18s linear infinite;
+    animation: gulfinnetKirurgfiskTurn 36s linear infinite;
     animation-delay: 1.4s;
 }
 
