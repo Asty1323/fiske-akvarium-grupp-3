@@ -582,7 +582,6 @@ body {
 color: #ffffff;
 font-family: "Barlow";
 text-align: center;
-text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
     transform-origin: bottom left;
     animation: pustBoble 0.7s ease-out 0.75s both;
 }
@@ -594,8 +593,8 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
     line-height: 1.2;
     overflow-wrap: break-word;
     font-family: "Apex New", sans-serif;
-    font-weight: 700;
     font-style: italic;
+    color: #E94C06;
 }
 
 #infoFoto {
@@ -618,9 +617,6 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
     line-height: 1.35;
 }
 
-#infoFunFact {
-    font-weight: bold;
-}
 
 #lukBoble {
     position: absolute;
