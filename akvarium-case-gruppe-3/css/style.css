@@ -312,23 +312,23 @@ body {
 @keyframes paletKirurgfiskTurn {
 
     0% {
-        transform: translateX(0) scaleX(1);
-    }
-
-    45% {
-        transform: translateX(160vw) scaleX(1);
-    }
-
-    50% {
-        transform: translateX(160vw) scaleX(-1);
-    }
-
-    95% {
         transform: translateX(0) scaleX(-1);
     }
 
-    100% {
+    45% {
+        transform: translateX(160vw) scaleX(-1);
+    }
+
+    50% {
+        transform: translateX(160vw) scaleX(1);
+    }
+
+    95% {
         transform: translateX(0) scaleX(1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(-1);
     }
 }
 
