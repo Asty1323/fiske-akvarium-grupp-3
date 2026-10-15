@@ -616,6 +616,7 @@ text-align: center;
     width: 100%;
     font-size: clamp(18px, 1.6vw, 22px);
     line-height: 1.35;
+    white-space: pre-line;
 }
 
 
