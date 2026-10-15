@@ -624,13 +624,14 @@ text-align: center;
 
 
 #lukBoble {
-    position: absolute;
-    top: 5%;
-    right: 5%;
+     position: absolute;
+    top: 3%;
+    right: 3%;
     border: none;
     background: transparent;
-    color: #E94C06;
-    font-size: 26px;
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 900;
     cursor: pointer;
     z-index: 10;
 }
