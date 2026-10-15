@@ -268,20 +268,20 @@ body {
 .paletKirurgfisk{
     position: absolute;
     top: 600px;
-    left: -30vw;
+    left: 30%;
     width: 106px;
     z-index: 1;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfiskTurn 36s linear infinite;
 }
 
 .paletKirurgfisk2{
     position: absolute;
     top:  537px;
-    left: -30vw;
+    left: 30%;
     width: 106px;
     z-index: 1;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfiskTurn 36s linear infinite;
     animation-delay: 2.4s;
 }
@@ -289,10 +289,10 @@ body {
 .paletKirurgfisk3{
     position: absolute;
     top: 600px;
-    left: -30vw;
+    left: 30%;
     width: 106px;
     z-index: 1;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfiskTurn 36s linear infinite;
     animation-delay: 2.4s;
 }
@@ -300,10 +300,10 @@ body {
 .paletKirurgfisk4{
     position: absolute;
     top: 600px;
-    left: -30vw;
+    left: 30%;
     width: 106px;
     z-index: 1;
-    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfiskTurn 36s linear infinite;
     animation-delay: 2.4s;
 }
@@ -316,11 +316,11 @@ body {
     }
 
     45% {
-        transform: translateX(130vw) scaleX(1);
+        transform: translateX(160vw) scaleX(1);
     }
 
     50% {
-        transform: translateX(130vw) scaleX(-1);
+        transform: translateX(160vw) scaleX(-1);
     }
 
     95% {
