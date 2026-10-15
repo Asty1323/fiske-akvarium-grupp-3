@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Barlow" ;
+    src: url(Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Apex New" ;
+    src: url(ApexNewTrial-BoldItalic-BF66724ea4ea840.otf);
+}
+
+
 body {
     margin: 0;
     position: relative;
