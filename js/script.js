@@ -64,7 +64,7 @@ const fish = [
 
       {
         id: "chromis",
-        species: "HEJ, JEG ER EN\nCHROMIS!",
+        species: "HEJ, JEG ER EN CHROMIS!",
         habitat: "Jeg kommer fra Det Indiske Ocean, Stillehavet og Det Røde Hav.",
         size: "Jeg kan blive op til 10 cm lang.",
         diet: "Jeg spiser alger og plankton.",
