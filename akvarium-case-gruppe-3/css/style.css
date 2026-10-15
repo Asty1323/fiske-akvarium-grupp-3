@@ -675,10 +675,3 @@ text-align: center;
   justify-content: center;
   align-items: center;
 }
-
-#overlayKardinalFisk img {
- max-width: 100%;
-  max-height: 100vh;
-  width: auto;
-  height: auto;
-}
