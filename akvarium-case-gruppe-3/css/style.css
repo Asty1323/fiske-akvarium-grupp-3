@@ -312,9 +312,42 @@ body {
     }
 }
 
-.paletKirurgfisk{
+.paletKirurgfisk {
+    position: absolute;
+    top: 500px;
+    left: calc(100vw + 50px);
+    width: 120px;
+    z-index: 1;
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk2 {
+    position: absolute;
+    top: 550px;
+    left: calc(100vw + 220px);
+    width: 120px;
+    z-index: 1;
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk3 {
     position: absolute;
     top: 600px;
+<<<<<<< HEAD
+    left: calc(100vw + 390px);
+    width: 120px;
+    z-index: 1;
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+@keyframes paletKirurgfisk {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100vw - 600px));
+=======
     left: 30%;
     width: 106px;
     z-index: 1;
@@ -377,6 +410,7 @@ body {
 
     100% {
         transform: translateX(0) scaleX(-1);
+>>>>>>> cc6fa94ce9883b86707a88d5ce25f07f7d8e3771
     }
 }
 
