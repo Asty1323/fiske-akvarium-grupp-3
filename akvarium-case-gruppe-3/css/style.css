@@ -273,7 +273,7 @@ body {
     z-index: 1;
     left: -30vw; /* starter 30vw uden for skærmen til venstre */
     animation: paletKirurgfiskTurn 36s linear infinite;
-    animation-delay: 3s;
+    animation-delay: 3.8s;
 }
 
 .paletKirurgfisk2{
