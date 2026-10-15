@@ -91,6 +91,7 @@ const fish = [
     },
 
 ]
+
 const overlay = document.getElementById("infoOverlay");
 const lukKnap = document.getElementById("lukBoble");
 let valgtFisk;
@@ -194,6 +195,3 @@ function playSound(fish) {
 const hoermig = document.getElementById("hoerMig");
 
 hoermig.addEventListener("click", function() {playSound(fish)})
-
-
-
