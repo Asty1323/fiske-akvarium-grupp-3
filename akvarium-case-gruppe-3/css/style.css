@@ -17,13 +17,12 @@ body {
 
 .background {
     width: 100%;
-    min-height: 70vh;
-    background-size: contain;
+    height: 100vh;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 0;
 }
-
 
 .kardinalFisk {
     position: absolute;
