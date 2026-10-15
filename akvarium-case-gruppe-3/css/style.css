@@ -521,6 +521,7 @@ body {
     width: 24%;
     height: 30%;
     object-fit: contain;
+    transform: scaleX(-1);
 }
 
 /* Første boble */
