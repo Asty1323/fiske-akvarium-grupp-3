@@ -89,9 +89,40 @@ let valgtFisk;
 
 function aabnBoble(fisk, element) {
     valgtFisk = element;
+
 const tegnetFisk = document.getElementById("valgtFiskFoto");
 tegnetFisk.src = element.src;
 tegnetFisk.alt = element.alt;
+
+// Vend fisken, hvis originalbilledet vender mod venstre
+const fiskModVenstre = [
+    "kardinalFisk",
+    "kardinalFisk2",
+    "kardinalFisk3",
+    "kardinalFisk4",
+
+    "gulKirurgfisk",
+    "gulKirurgfisk2",
+    "gulKirurgfisk3",
+    "gulKirurgfisk4",
+    "gulKirurgfisk5",
+
+    "paletKirurgFisk",
+    "paletKirurgFisk2",
+    "paletKirurgFisk3",
+    "paletKirurgFisk4",
+
+    "gulfinnetKirurgfisk",
+    "gulfinnetKirurgfisk2",
+    // Tilføj flere ID'er her, hvis nødvendigt
+];
+
+tegnetFisk.style.transform = fiskModVenstre.some(id =>
+    element.id.startsWith(id)
+)
+    ? "scaleX(-1)"
+    : "scaleX(1)";
+
     document.getElementById("infoTitel").textContent = fisk.species;
     document.getElementById("infoFoto").src = fisk.photo;
     document.getElementById("infoFoto").alt = element.alt;
