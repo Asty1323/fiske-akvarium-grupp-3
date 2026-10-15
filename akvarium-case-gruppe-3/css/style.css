@@ -593,6 +593,9 @@ text-shadow: 0 2px 4px rgba(0, 25, 45, 0.85);
     font-size: clamp(13px, 1.7vw, 21px);
     line-height: 1.2;
     overflow-wrap: break-word;
+    font-family: "Apex New", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 #infoFoto {
