@@ -275,6 +275,36 @@ body {
     animation: paletKirurgfisk 18s linear infinite;
 }
 
+.paletKirurgfisk2{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    width: 150px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk3{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    width: 150px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
+.paletKirurgfisk4{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    width: 150px;
+    z-index: 1;
+    left: 130vw; /* starter 30vw uden for skærmen til venstre */
+    animation: paletKirurgfisk 18s linear infinite;
+}
+
 @keyframes paletKirurgfisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(-130vw); }
@@ -369,11 +399,6 @@ body {
     }
 }
 
-
-
-
-
-
 .kuglefisk{
     position: absolute;
     top: 622px;
@@ -387,6 +412,8 @@ body {
 @keyframes kuglefisk {
    0%   { transform: translateX(0); }
    100% { transform: translateX(130vw); }
+
+
 }
 #infoOverlay[hidden] {
     display: none;
