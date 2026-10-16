@@ -15,13 +15,6 @@ body {
 }
 
 .background {
-  /*   width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 0;
-     */
      position: fixed;
     inset: 0;
     width: 100%;
@@ -36,7 +29,6 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -0.3s;
@@ -48,7 +40,6 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -2s;
@@ -60,7 +51,6 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1.3s;
@@ -72,7 +62,6 @@ body {
     left: 120%;
     width: 90px;
     z-index: 1;
-    /*bottom: 2.8vh;*/
     /*left: 130vw; /* starter 30vw uden for skærmen til venstre */
     animation: kardinalFiskTurn 36s linear infinite;
     animation-delay: -1s;
