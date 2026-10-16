@@ -179,15 +179,6 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-const kugleFisk = new Audio("audio/kuglefisk.wav");
-
-const hoerMigBtn = document.getElementById("hoerMig");
-
-hoerMigBtn.addEventListener("click", function(){
-kugleFisk.play();
-})
-
-
 
 function playSound(fish) {
    const audio = new Audio(fish.sound);
