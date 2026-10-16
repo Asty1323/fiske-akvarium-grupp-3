@@ -89,7 +89,7 @@ body {
 .gulKirurgfisk {
     position: absolute;
     top: 300px;
-    left: 150px;
+    left: 0;
     width: 120px;
     z-index: 2;
     animation: gulKirurgfiskTurn 40s linear infinite;
@@ -98,7 +98,7 @@ body {
 .gulKirurgfisk2 {
     position: absolute;
     top: 379px;
-    left: 150px;
+    left: 0;
     width: 104px;
     z-index: 1;
     animation: gulKirurgfiskTurn 40s linear infinite;
@@ -108,7 +108,7 @@ body {
 .gulKirurgfisk3 {
     position: absolute;
     top: 300px;
-    left: 150px;
+    left: 0;
     width: 80px;
     z-index: 2;
     animation: gulKirurgfiskTurn 40s linear infinite;
@@ -118,7 +118,7 @@ body {
 .gulKirurgfisk4 {
     position: absolute;
     top: 348px;
-    left: 150px;
+    left: 0;
     width: 80px;
     z-index: 1;
     animation: gulKirurgfiskTurn 40s linear infinite;
@@ -128,7 +128,7 @@ body {
 .gulKirurgfisk5 {
     position: absolute;
     top: 333px;
-    left: 150px;
+    left: 0;
     width: 62px;
     z-index: 1;
     animation: gulKirurgfiskTurn 40s linear infinite;
@@ -137,67 +137,81 @@ body {
 
 @keyframes gulKirurgfiskTurn {
     0% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(-1);
     }
 
     45% {
-        transform: translateX(-150vw) scaleX(1);
+        transform: translateX(calc(100vw + 120px)) scaleX(-1);
     }
 
     50% {
-        transform: translateX(-150vw) scaleX(-1);
+        transform: translateX(calc(100vw + 120px)) scaleX(1);
     }
 
     95% {
-        transform: translateX(0) scaleX(-1);
+        transform: translateX(-100%) scaleX(1);
     }
 
     100% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(-1);
     }
 }
 
 .raevFjaes {
     position: absolute;
     top: 70px;
-    left: 15%;
+    left: 0;
     width: 160px;
     z-index: 1;
-    bottom: 2.8vh;
-    animation: raevFjaes 18s linear infinite;
+    animation: raevFjaesTurn 24s linear infinite;
 }
 
 .raevFjaes2 {
     position: absolute;
     top: 146px;
-    left: 15%;
+    left: 0;
     width: 133px;
     z-index: 1;
-    bottom: 2.8vh;
-    animation: raevFjaes 18s linear infinite;
+    animation: raevFjaesTurn 24s linear infinite;
     animation-delay: 1s;
 }
 
 .raevFjaes3 {
     position: absolute;
     top: 162px;
-    left: 15%;
+    left: 0;
     width: 160px;
     z-index: 1;
-    bottom: 2.8vh;
-    animation: raevFjaes 18s linear infinite;
+    animation: raevFjaesTurn 24s linear infinite;
     animation-delay: -1s;
 }
 
-@keyframes raevFjaes {
-   0%   { transform: translateX(0); }
-   100% { transform: translateX(130vw); }
+@keyframes raevFjaesTurn {
+    0% {
+        transform: translateX(-100%) scaleX(1);
+    }
+
+    45% {
+        transform: translateX(calc(100vw + 160px)) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(calc(100vw + 160px)) scaleX(-1);
+    }
+
+    95% {
+        transform: translateX(-100%) scaleX(-1);
+    }
+
+    100% {
+        transform: translateX(-100%) scaleX(1);
+    }
 }
 
 .gulfinnetKirurgfisk {
     position: absolute;
     top: 90px;
-    left: 75%;
+    left: 0;
     width: 200px;
     z-index: 1;
     animation: gulfinnetKirurgfiskTurn 36s linear infinite;
@@ -206,7 +220,7 @@ body {
 .gulfinnetKirurgfisk2 {
     position: absolute;
     top: 134px;
-    left: 75%;
+    left: 0;
     width: 200px;
     z-index: 1;
     animation: gulfinnetKirurgfiskTurn 36s linear infinite;
@@ -215,25 +229,26 @@ body {
 
 @keyframes gulfinnetKirurgfiskTurn {
     0% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(-1);
     }
 
     45% {
-        transform: translateX(-150vw) scaleX(1);
+        transform: translateX(calc(100vw + 200px)) scaleX(-1);
     }
 
     50% {
-        transform: translateX(-150vw) scaleX(-1);
+        transform: translateX(calc(100vw + 200px)) scaleX(1);
     }
 
     95% {
-        transform: translateX(0) scaleX(-1);
+        transform: translateX(-100%) scaleX(1);
     }
 
     100% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(-1);
     }
 }
+
 
 .nemo {
     position: absolute;
@@ -323,118 +338,116 @@ body {
     }
 }
 
-.chromis{
-   position: absolute;
+.chromis {
+    position: absolute;
     top: 584px;
-    left: 65%;
+    left: 0;
     width: 101px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: 2.4s;
 }
 
-.chromis2{
-   position: absolute;
+.chromis2 {
+    position: absolute;
     top: 479px;
-    left: 65%;
+    left: 0;
     width: 102px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: -0.6s;
 }
 
-.chromis3{
-   position: absolute;
+.chromis3 {
+    position: absolute;
     top: 532px;
-    left: 65%;
+    left: 0;
     width: 113px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: -1s;
 }
 
-.chromis4{
-   position: absolute;
+.chromis4 {
+    position: absolute;
     top: 536px;
-    left: 65%;
+    left: 0;
     width: 101px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: 0.6s;
 }
 
-.chromis5{
-   position: absolute;
+.chromis5 {
+    position: absolute;
     top: 553px;
-    left: 65%;
+    left: 0;
     width: 125px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: -1.6s;
 }
 
-.chromis6{
-   position: absolute;
+.chromis6 {
+    position: absolute;
     top: 578px;
-    left: 65%;
+    left: 0;
     width: 101px;
     z-index: 1;
-    animation: chromisTurn 30s linear infinite;
+    animation: chromisTurn 22s linear infinite;
     animation-delay: -0.6s;
 }
 
 @keyframes chromisTurn {
-
     0% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(1);
     }
 
     45% {
-        transform: translateX(130vw) scaleX(1);
+        transform: translateX(100vw) scaleX(1);
     }
 
     50% {
-        transform: translateX(130vw) scaleX(-1);
+        transform: translateX(100vw) scaleX(-1);
     }
 
     95% {
-        transform: translateX(0) scaleX(-1);
+        transform: translateX(-100%) scaleX(-1);
     }
 
     100% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(1);
     }
 }
 
-.kuglefisk{
+.kuglefisk {
     position: absolute;
     top: 622px;
-    left: 45%;
+    left: 0;
     width: 140px;
     z-index: 2;
     animation: kuglefiskTurn 36s linear infinite;
 }
 
 @keyframes kuglefiskTurn {
-
     0% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(1);
     }
 
     45% {
-        transform: translateX(150vw) scaleX(1);
+        transform: translateX(100vw) scaleX(1);
     }
 
     50% {
-        transform: translateX(150vw) scaleX(-1);
+        transform: translateX(100vw) scaleX(-1);
     }
 
     95% {
-        transform: translateX(0) scaleX(-1);
+        transform: translateX(-100%) scaleX(-1);
     }
 
     100% {
-        transform: translateX(0) scaleX(1);
+        transform: translateX(-100%) scaleX(1);
     }
 }
 
