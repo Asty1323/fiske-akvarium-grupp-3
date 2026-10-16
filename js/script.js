@@ -187,44 +187,7 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-/* const overlay = document.getElementById("infoOverlay");
-const lukKnap = document.getElementById("lukBoble");
-let valgtFiskElement;
-let aktivFiskObjekt = null; */
 
-/* function aabnBoble(fisk, element) {
-    valgtFiskElement = element;
-    aktivFiskObjekt = fisk; // Gemmer den aktuelle fisk her
-
-    const tegnetFisk = document.getElementById("valgtFiskFoto");
-    tegnetFisk.src = element.src;
-    tegnetFisk.alt = element.alt;
-
-    // ... (din eksisterende kode til at vende fisken) ...
-
-    document.getElementById("infoTitel").textContent = fisk.species;
-    document.getElementById("infoFoto").src = fisk.photo;
-    document.getElementById("infoFoto").alt = element.alt;
-    document.getElementById("infoHabitat").textContent = fisk.habitat;
-    document.getElementById("infoSize").textContent = fisk.size;
-    document.getElementById("infoDiet").textContent = fisk.diet;
-    document.getElementById("infoFunFact").textContent = fisk.funFact;
-
-    overlay.hidden = false;
-    lukKnap.focus();
-} */
-/* 
-function playSound() {
-    const audio = new Audio(aktivFiskObjekt.sound);
-    audio.play();
-}
-
-const hoermig = document.getElementById("hoerMig");
-
-hoermig.addEventListener("click", function() {
-    playSound();
-});
- */
 function playSound(fish) {
    const audio = new Audio(fish.sound);
    audio.play();
