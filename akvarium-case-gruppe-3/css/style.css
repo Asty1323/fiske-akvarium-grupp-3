@@ -155,7 +155,6 @@ body {
     animation-delay: 1.2s;
 }
 
-
 @keyframes gulKirurgfiskTurn {
     0% {
         transform: translateX(0) scaleX(1);
