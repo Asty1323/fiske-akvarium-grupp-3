@@ -205,3 +205,4 @@ const hoerMigBtnNemo = document.getElementById("hoerMig");
 hoerMigBtn.addEventListener("click",function(){
     soundNemo.play()
 });
+
