@@ -179,15 +179,6 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-const kugleFisk = new Audio("audio/kuglefisk.wav");
-
-const hoerMigBtn = document.getElementById("hoerMig");
-
-hoerMigBtn.addEventListener("click", function(){
-kugleFisk.play();
-})
-
-
 
 function playSound(fish) {
    const audio = new Audio(fish.sound);
@@ -204,4 +195,21 @@ soundNemo.src="nemo.wav";
 const hoerMigBtnNemo = document.getElementById("hoerMig");
 hoerMigBtn.addEventListener("click",function(){
     soundNemo.play()
+});
+
+function playSound(fish) {
+   const audio = new Audio(fish.sound);
+   audio.play();
+}
+
+const hoerMig = document.getElementById("hoerMig");
+
+hoerMigBtnKuglefisk.addEventListener("click", function() {playSound(fish)})
+
+const soundKugleFisk=newAudio()
+soundKugleFisk.src="kuglefisk.wav";
+
+const hoerMigBtnKugleFisk = document.getElementById("hoerMig");
+hoerMigBtnKugleFisk.addEventListener("click",function(){
+    soundKugleFisk.play()
 });
