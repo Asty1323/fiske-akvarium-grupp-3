@@ -194,14 +194,14 @@ function playSound(fish) {
    audio.play();
 }
 
-const hoermig = document.getElementById("hoerMig");
+const hoerig = document.getElementById("hoerMig");
 
 hoermig.addEventListener("click", function() {playSound(fish)})
 
 const soundNemo=newAudio()
 soundNemo.src="nemo.wav";
 
-const hoerMigBtn=document.getElementById("hoerMig");
+const hoermigBtn=document.getElementById("hoerMig");
 hoerMigBtn.addEventListener("click",function(){
     soundNemo.play()
 });
