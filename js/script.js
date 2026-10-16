@@ -187,6 +187,16 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+const kugleFisk = new Audio();
+kugleFisk.src = "audio/kuglefisk.wav"
+
+const hoerMigBtn = document.getElementById("hoerMig");
+
+hoerMigBtn.addEventListener("click", function(){
+kugleFisk.play();
+})
+
+
 
 function playSound(fish) {
    const audio = new Audio(fish.sound);
