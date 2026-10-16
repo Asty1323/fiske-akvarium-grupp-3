@@ -197,3 +197,7 @@ hoerMigBtnNemo.addEventListener("click",function(){
     soundNemo.play()
 });
 
+const lukBobleBtn=document.getElementById("lukBoble");
+lukBobleBtn.addEventListener("click",function(){
+    soundNemo.pause();
+})
