@@ -197,19 +197,3 @@ hoerMigBtn.addEventListener("click",function(){
     soundNemo.play()
 });
 
-function playSound(fish) {
-   const audio = new Audio(fish.sound);
-   audio.play();
-}
-
-const hoerMig = document.getElementById("hoerMig");
-
-hoerMigBtnKuglefisk.addEventListener("click", function() {playSound(fish)})
-
-const soundKugleFisk=newAudio()
-soundKugleFisk.src="kuglefisk.wav";
-
-const hoerMigBtnKugleFisk = document.getElementById("hoerMig");
-hoerMigBtnKugleFisk.addEventListener("click",function(){
-    soundKugleFisk.play()
-});
