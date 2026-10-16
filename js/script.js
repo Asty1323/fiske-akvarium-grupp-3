@@ -187,10 +187,10 @@ function playSound(fish) {
 
 const hoerMig = document.getElementById("hoerMig");
 
-hoerMigBtnNemo.addEventListener("click", function() {playSound(fish)})
-
-const soundNemo=newAudio()
-soundNemo.src="nemo.wav";
+/* hoerMigBtnNemo.addEventListener("click", function() {playSound(fish)})
+ */
+const soundNemo=new Audio()
+soundNemo.src="audio/nemo.wav";
 
 const hoerMigBtnNemo = document.getElementById("hoerMig");
 hoerMigBtnNemo.addEventListener("click",function(){
