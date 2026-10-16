@@ -422,11 +422,11 @@ body {
     }
 
     45% {
-        transform: translateX(130vw) scaleX(1);
+        transform: translateX(150vw) scaleX(1);
     }
 
     50% {
-        transform: translateX(130vw) scaleX(-1);
+        transform: translateX(150vw) scaleX(-1);
     }
 
     95% {
