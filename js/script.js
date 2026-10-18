@@ -115,7 +115,7 @@ const fiskModVenstre = [
 
     "gulfinnetKirurgfisk",
     "gulfinnetKirurgfisk2",
-    // Tilføj flere ID'er her, hvis nødvendigt
+   
 ];
 
 tegnetFisk.style.transform = fiskModVenstre.some(id =>
